@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Chrono Type'; 
+  src: url('./ChronoType.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Chrono Type', Arial, sans-serif;
+  text-align: center;
+  background-image: url('./background.gif');
+  background-repeat: repeat;
+}
+
+#message {
+  font-family: 'Chrono Type', Arial, sans-serif;
+  font-size: 30px;
+  margin-top: 100px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+#response {
+  font-family: 'Chrono Type', Arial, sans-serif;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #3772a3;
+}
+
+#error {
+  font-family: 'Chrono Type', Arial, sans-serif;
+  font-size: 22px;
+  color: red;
+  margin-top: 10px;
+}
+
+#link {
+  font-family: 'Chrono Type', Arial, sans-serif;
+  color: blue;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+#verifyButton {
+  font-family: 'Chrono Type', Arial, sans-serif;
+  font-size: 22px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #3772a3;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
